@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Checking for Canvas support</title>
+		<style type="text/css">
+			canvas {border:2px dotted red;}
+			canvas {background-color:blue;}
+		</style>
+		<script>
+			var gl=null;	
+			function getWebGLContext()
+			{
+				var canvas=document.getElementById("cid");	
+				if (canvas == null)
+				{
+					alert("there is no canvas on this page");
+					return;
+				}
+				//var contextNames =["webgl","experimental-webgl","webkit-3d","moz-webgl"];
+				var contextNames =["experimental-webgl","webgl","webkit-3d","moz-webgl"];
+				for(var i=0; i<contextNames.length; ++i)
+				{
+					try
+					{	
+						gl=canvas.getContext(contextNames[i]);
+						gl.clearColor(0,0,0.8,1);
+						alert(contextNames[i]);
+						if(gl)
+						{
+							var str="your WebGL context name is: " + contextNames[i];
+							alert(str); 	
+						}
+						else{}
+					}catch(e){}	
+				}
+			}
+		</script>
+	</head>
+	<body onLoad="getWebGLContext()">
+		<canvas id="cid" width="800" height ="600">
+		Your browser does not support html5	
+		</canvas>
+	</body>
+</html>
