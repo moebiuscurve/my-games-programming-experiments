@@ -15,21 +15,38 @@ Buffer holding vertex and index data. Together with uniforms these are input dat
 
 WebGLFrameBuffer (FBO)
 ========================
-Alternative render target. There is a default frame buffer commonly known as window system provided frame buffer.
+Alternative render target. There is a default frame buffer in OpenGL ES2 commonly known as window system provided frame buffer. 
+But in WebGL it's just regular FBO which displays its content on the canvas.
+
 
 WebGLRenderBuffer
 ========================
+Something you can attach to an FBO to render into. Currently only way to do depth testing.
 
 WebGLTexture
 ========================
+A texture is an image which you can use to both read from a Fragment Shader, as well as target for an FBO to render into.
+WebGL supports 2D and Cube textures.
 
 WebGLProgram
 ========================
+Both a vertex and Fragment shader linked together. 
 
 WebGLShader
 ========================
+An object you create, set the source for, compile and attach to a program.
+2 types: 1. Vertex Shader 2. Fragment Shader
+
+1. Vertex Shader
+------------------------
+
+
+2. Fragment Shader
+------------------------
 
 
 WebGLUniformLocation
 ========================
+Identifier you can query from the program. You use that to set constants in the program.
+
 
