@@ -1,6 +1,7 @@
 WebGLContext
 ========================
-API for WebGL. Holds OpenGL state machine.
+A WebGL context is a handle throught which we can access all WebGL functions and attributes.
+API for WebGL. Holds OpenGL state machine. Implemented as a Javascript Object.
 
 state machine allows you to bind objects to some bind point in context with some API call.
 It also allows you to decribe attributes relevent to geometry manipulation or objects in scene.
