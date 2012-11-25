@@ -1,0 +1,35 @@
+WebGLContext
+========================
+API for WebGL. Holds OpenGL state machine.
+
+state machine allows you to bind objects to some bind point in context with some API call.
+It also allows you to decribe attributes relevent to geometry manipulation or objects in scene.
+
+These bind points are some properties in the context.
+
+
+WebGLBuffer (VBO)
+========================
+Buffer holding vertex and index data. Together with uniforms these are input data to the rendering pipeline.
+
+
+WebGLFrameBuffer (FBO)
+========================
+Alternative render target. There is a default frame buffer commonly known as window system provided frame buffer.
+
+WebGLRenderBuffer
+========================
+
+WebGLTexture
+========================
+
+WebGLProgram
+========================
+
+WebGLShader
+========================
+
+
+WebGLUniformLocation
+========================
+
