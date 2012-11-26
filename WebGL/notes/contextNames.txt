@@ -1,3 +1,5 @@
+Context names can vary from vendor to vendor. Current known list:
+
 webgl
 experimental-webgl
 webkit-3d
