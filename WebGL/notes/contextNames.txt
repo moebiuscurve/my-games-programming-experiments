@@ -1,0 +1,4 @@
+webgl
+experimental-webgl
+webkit-3d
+moz-webgl
