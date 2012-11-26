@@ -1,1 +1,3 @@
 WebGL Specification: http://www.khronos.org/registry/webgl/specs/latest/
+
+OpenGL ES 2.0: http://www.khronos.org/opengles/2_X/
