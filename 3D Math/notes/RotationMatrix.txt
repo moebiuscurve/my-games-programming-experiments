@@ -1,0 +1,46 @@
+2D:
+===
+
+Rotate(θ) = R(θ) =　
+
+⎡cos(θ) -sin(θ)⎤
+⎣sin(θ) cos(θ)⎦
+
+
+R is orthogonal square matrics with determinant 1
+
+i.e Rᵀ=R⁻¹ and det(R)=1
+
+
+
+3D:
+===
+
+basic gimbal-like:
+------------------
+
+Rx(θ) =      
+
+⎡1   0       0   ⎤
+⎢0 cos(θ) -sin(θ)⎥
+⎣0 sin(θ)  cos(θ)⎦
+
+
+Ry(θ) =      
+
+⎡ cos(θ) 0 sin(θ)⎤
+⎢   0    1   0   ⎥
+⎣-sin(θ) 0 cos(θ)⎦
+
+
+Rz(θ) =      
+
+⎡cos(θ) -sin(θ) 0⎤
+⎢sin(θ)  cos(θ) 0⎥
+⎣  0        0   1⎦
+
+
+References:
+===========
+http://en.wikipedia.org/wiki/Rotation_matrix
+

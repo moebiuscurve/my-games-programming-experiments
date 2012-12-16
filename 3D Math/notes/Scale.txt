@@ -1,0 +1,17 @@
+2D:
+===
+
+Scale(Sx, Sy) =　　　
+
+⎡Sx 0⎤
+⎣0 Sy⎦
+
+
+3D:
+===
+
+Scale(Sx, Sy，Sz) =      
+
+⎡Sx 0 0⎤
+⎢0 Sy 0⎥
+⎣0 0 Sz⎦
