@@ -1,0 +1,3 @@
+Rotation Matrix:
+http://en.wikipedia.org/wiki/Rotation_matrix
+http://mathworld.wolfram.com/RotationMatrix.html
