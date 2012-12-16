@@ -1,5 +1,10 @@
+
+
+Non-Uniform Scale:
+==================
+
 2D:
-===
+---
 
 Scale(Sx, Sy) =　　　
 
@@ -8,7 +13,7 @@ Scale(Sx, Sy) =　　　
 
 
 3D:
-===
+---
 
 Scale(Sx, Sy，Sz) =      
 
