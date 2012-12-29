@@ -1,0 +1,36 @@
+Orthonormal Bases and Coordinate Frames
+=======================================
+
+* Used in representing points, positions, locations
+
+* Many sets of coordinate systems, not just X, Y, Z: Global, local, world, model, parts of model (head, hands etc)
+
+* Transforming between these systems/bases id critical.
+
+
+Coordinate Frames
+=================
+
+* Any set of 3 vectors (3D) so that:
+
+∥u⃗∥　=　∥v⃗∥　＝　∥w⃗∥　＝　1　(also called unit norms)
+
+u⃗⋅v⃗　=　v⃗⋅w⃗　=　u⃗⋅w⃗　=　0 (orthogonal)
+
+w⃗ = u⃗⨯v⃗ (right hand thumb rule of cross product)
+
+A vector p⃗ can be written in terms of its projection on to the vectors u⃗ v⃗ & w⃗
+
+p⃗ = (p⃗⋅u⃗)u⃗ + (p⃗⋅v⃗)v⃗ + (p⃗⋅w⃗)w⃗
+
+
+Given 2 vectors a⃗ and b⃗ which are neither orthogonal nor unit norm, how do you create an orthonormal coordinate frame?
+----------------------------------------------------------------------------
+
+w⃗ = a⃗/∥a⃗∥
+
+u⃗ = b⃗⨯w⃗/∥b⃗⨯w⃗∥ (This fails when b⃗⨯w⃗ = 0, because in this case they are same vectors)
+
+v⃗ = w⃗⨯u⃗
+
+
