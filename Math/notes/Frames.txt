@@ -5,7 +5,7 @@ Orthonormal Bases and Coordinate Frames
 
 * Many sets of coordinate systems, not just X, Y, Z: Global, local, world, model, parts of model (head, hands etc)
 
-* Transforming between these systems/bases id critical.
+* Transforming between these systems/bases is critical for 3D computer graphics.
 
 
 Coordinate Frames
